@@ -8,6 +8,7 @@ maven 'maven3.9.12'
 
 //Checkout code
 stages{
+
 stage('checkOutCode'){
 steps{
 git branch: 'devlopment', credentialsId: '997b76d5-6022-4755-bc50-cc35d47847d4', url: 'https://github.com/Devopsclasses-2024/maven-web-application.git'
